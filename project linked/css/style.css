@@ -1,0 +1,49 @@
+
+/*Start main Section */
+.main {
+    background-color:#2f2f2f;
+    height: 90vh;
+}
+.main  h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 39px;
+    font-size: 67px;
+    color: #a39898;
+    font-family: 'Luckiest Guy', cursive;
+}
+.main .wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+    padding-top: 30px;
+}
+.main .wrapper .item{
+    flex: 6;
+    margin: auto;
+    text-align: end;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+.main .wrapper .item:last-of-type{
+    text-align: initial;
+}
+/*End main Section */
+
+
+/*Start Footer Section */
+.footer{
+    background-color: #1d1d1d;
+    height: 55px;
+    margin: 0px;
+}
+.footer p{
+    font-weight: 200;
+    color: #575757;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0;
+    padding: 16px;
+}
+/*End Footer Section */
